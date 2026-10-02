@@ -1,6 +1,6 @@
 public class Procesador {
     public static void procesar(int[] datos) {
-        int i = 0;
+        int i = 0; //"i" como variable ambigua
         int suma = 0;
         while (i < datos.length) {
             suma += datos[i]; //Se suma antes de evaluar si el número es negativo
