@@ -19,7 +19,6 @@ public class NewGestorClientes {
         List<String> clientes = new ArrayList<>();
         clientes.add("Juan");
         clientes.add("Pedro");
-        clientes.add(new String("Pedro"));
         eliminarInactivos(clientes, "Pedro");
         System.out.println(clientes);
     }
